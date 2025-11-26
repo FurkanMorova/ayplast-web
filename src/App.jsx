@@ -465,12 +465,12 @@ const AboutPage = () => (
             <Reveal delay="reveal-delay-2">
                 <div className="grid grid-cols-3 gap-4 text-center">
                     <div className="glass p-6 rounded-2xl hover:bg-blue-900/20 transition-colors">
-                        <h4 className="text-4xl font-black text-blue-400 mb-2">500T</h4>
-                        <p className="text-xs text-slate-400 font-bold uppercase">Aylık Kapasite</p>
+                        <h4 className="text-4xl font-black text-blue-400 mb-2">100%</h4>
+                        <p className="text-xs text-slate-400 font-bold uppercase">Müşteri Memnuyieti</p>
                     </div>
                     <div className="glass p-6 rounded-2xl hover:bg-purple-900/20 transition-colors">
-                        <h4 className="text-4xl font-black text-purple-400 mb-2">5K m²</h4>
-                        <p className="text-xs text-slate-400 font-bold uppercase">Kapalı Alan</p>
+                        <h4 className="text-4xl font-black text-purple-400 mb-2">∞ </h4>
+                        <p className="text-xs text-slate-400 font-bold uppercase">Sayısız Proje</p>
                     </div>
                     <div className="glass p-6 rounded-2xl hover:bg-cyan-900/20 transition-colors">
                         <h4 className="text-4xl font-black text-cyan-400 mb-2">35+</h4>
