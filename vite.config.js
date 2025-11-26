@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/ayplast-website/', // <-- BURAYA GITHUB REPO ADINI YAZ (başında ve sonunda / olsun)
+  base: '/ayplast-web/', // <-- BURAYA GITHUB REPO ADINI YAZ (başında ve sonunda / olsun)
 })
