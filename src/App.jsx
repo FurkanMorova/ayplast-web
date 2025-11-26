@@ -301,7 +301,7 @@ const HomePage = ({ navigateTo }) => (
                 </Reveal>
                 <Reveal className="relative">
                      <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl transform rotate-3 blur-lg opacity-40"></div>
-                     <img loading="lazy" src="src/assets/ayplast-giris.png" alt="Ayplast Üretim Kalitesi" className="relative rounded-3xl shadow-2xl w-full border border-white/10" />
+                     <img loading="lazy" src="https://github.com/FurkanMorova/ayplast-web/blob/main/src/assets/ayplast-giris.png?raw=true" alt="Ayplast Üretim Kalitesi" className="relative rounded-3xl shadow-2xl w-full border border-white/10" />
                 </Reveal>
             </div>
         </div>
