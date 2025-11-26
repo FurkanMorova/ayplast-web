@@ -301,7 +301,7 @@ const HomePage = ({ navigateTo }) => (
                 </Reveal>
                 <Reveal className="relative">
                      <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl transform rotate-3 blur-lg opacity-40"></div>
-                     <img loading="lazy" src="src/assets/ayplast-giris.png" alt="Ayplast Üretim Kalitesi" className="relative rounded-3xl shadow-2xl w-full border border-white/10" />
+                     <img loading="lazy" src="https://github.com/FurkanMorova/ayplast-web/blob/main/src/assets/ayplast-giris.png?raw=true" alt="Ayplast Üretim Kalitesi" className="relative rounded-3xl shadow-2xl w-full border border-white/10" />
                 </Reveal>
             </div>
         </div>
@@ -439,7 +439,7 @@ const ECatalogPage = () => (
 const AboutPage = () => (
     <div className="bg-slate-950 min-h-screen pt-32 px-6">
     <div className="container mx-auto text-center text-white">
-      <SectionTitle title="Hakkımızda & Vizyon" subtitle="Ambalaj sektöründe kalite, güven ve teknoloji odaklı 30 yıllık deneyim." darkBg />
+      <SectionTitle title="Hakkımızda & Vizyon" subtitle="Ambalaj sektöründe kalite, güven ve teknoloji odaklı 10 yıllık deneyim." darkBg />
       
       <div className="grid md:grid-cols-2 gap-16 mt-20 items-center mb-32">
         <Reveal>
