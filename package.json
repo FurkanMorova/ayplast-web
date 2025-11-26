@@ -1,5 +1,6 @@
 {
   "name": "ayplast-web",
+  "homepage": "https://FurkanMorova.github.io/ayplast-web",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +10,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "tailwind:init": "node -e \"import('tailwindcss/cli').then(cli => cli.default(['init']))\"",
-    "tailwind:watch": "node -e \"import('tailwindcss/cli').then(cli => cli.default(['-i','./src/input.css','-o','./dist/output.css','--watch']))\""
+    "tailwind:watch": "node -e \"import('tailwindcss/cli').then(cli => cli.default(['-i','./src/input.css','-o','./dist/output.css','--watch']))\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.554.0",
@@ -25,6 +28,7 @@
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
+    "gh-pages": "^6.3.0",
     "globals": "^16.5.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
