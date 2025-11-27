@@ -121,7 +121,7 @@ const DETAILED_PRODUCTS = [
     category: "Mağaza Grubu",
     title: "Takviyeli Poşetler",
     desc: "Mağazacılık sektörünün en çok tercih ettiği, sap kısmı ekstra katla güçlendirilmiş, yüksek taşıma kapasiteli prestij poşetleri.",
-    image: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&q=80&w=600",
+    image: "https://github.com/FurkanMorova/ayplast-web/blob/main/src/assets/takviyeli-posetler.png?raw=true?auto=format&fit=crop&q=80&w=600",
     features: ["LDPE/HDPE Seçeneği", "Çift Kat Sap Mukavemeti", "8 Renk Flexo Baskı"]
   },
   {
@@ -129,23 +129,23 @@ const DETAILED_PRODUCTS = [
     category: "Mağaza Grubu",
     title: "El Geçme Poşetler",
     desc: "Ekonomik ve pratik kullanım sunan, el tutma yeri özel kesimle açılmış, fuar ve hafif tekstil ürünleri için ideal çözüm.",
-    image: "https://images.unsplash.com/photo-1553531384-cc64ac80f931?auto=format&fit=crop&q=80&w=600",
+    image: "https://github.com/FurkanMorova/ayplast-web/blob/main/src/assets/el-gecme-posetler.png?raw=true?auto=format&fit=crop&q=80&w=600",
     features: ["Parlak/Mat Yüzey", "Körük Seçeneği", "Tam Yüzey Baskı İmkanı"]
   },
   {
     id: 3,
     category: "Mağaza Grubu",
-    title: "Yumuşak Saplı Poşetler",
-    desc: "Taşıma konforunu artıran esnek sap yapısı ile ağır ürünlerde bile eli acıtmayan, premium görünümlü ambalajlar.",
-    image: "https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?auto=format&fit=crop&q=80&w=600",
-    features: ["Ekstra Kalın Sap", "Yüksek Mikron Kalınlık", "Geri Dönüştürülebilir"]
+    title: "Gıda Ambalajları",
+    desc: "Ürünlerin tazeliğini koruyan, hijyenik ve dayanıklı yapısıyla gıda sektörüne özel premium ambalaj çözümleri.",
+    image: "https://github.com/FurkanMorova/ayplast-web/blob/main/src/assets/gida-ambalajlari.png?raw=true?auto=format&fit=crop&q=80&w=600",
+    features: ["Yüksek Gıda Koruma Kapasitesi", "Kuvvetli Çok Katmanlı Film Yapısı", "Geri Dönüştürülebilir"]
   },
   {
     id: 4,
     category: "E-Ticaret",
     title: "Kargo Poşetleri",
     desc: "İnternet satışları için özel tasarlanmış, içi görünmeyen (co-ex), bantlı ve kurye süreçlerine dayanıklı güvenlikli poşetler.",
-    image: "https://images.unsplash.com/photo-1566576912902-4b610c787d62?auto=format&fit=crop&q=80&w=600",
+    image: "https://github.com/FurkanMorova/ayplast-web/blob/main/src/assets/kargo-posetleri.png?raw=true?auto=format&fit=crop&q=80&w=600",
     features: ["Güvenlik Bantlı (Tamper Evident)", "Gri/Siyah İç Yüzey", "Cepte Fatura Alanı"]
   },
   {
@@ -153,7 +153,7 @@ const DETAILED_PRODUCTS = [
     category: "Endüstriyel",
     title: "Shrink Rulo Film",
     desc: "Isı ile ürünü sararak formunu alan, paletleme ve çoklu paketlemede kullanılan endüstriyel koruma filmleri.",
-    image: "https://images.unsplash.com/photo-1605648916319-cf082f7524a1?auto=format&fit=crop&q=80&w=600",
+    image: "https://github.com/FurkanMorova/ayplast-web/blob/main/src/assets/shrink-rulo-film.png?raw=true?auto=format&fit=crop&q=80&w=600",
     features: ["Yüksek Isı Hassasiyeti", "Parlaklık ve Saydamlık", "Otomatik Makine Uyumu"]
   },
   {
@@ -161,7 +161,7 @@ const DETAILED_PRODUCTS = [
     category: "Tekstil",
     title: "Jelatin (OPP/CPP) Poşet",
     desc: "Gömlek, çorap ve iç giyim gibi ürünlerin sergilenmesinde kullanılan, yüksek parlaklığa sahip şeffaf ambalajlar.",
-    image: "https://images.unsplash.com/photo-1623366302587-b38b1ddaefd9?auto=format&fit=crop&q=80&w=600",
+    image: "https://github.com/FurkanMorova/ayplast-web/blob/main/src/assets/jelatin-poset.png?raw=true?auto=format&fit=crop&q=80&w=600",
     features: ["Yapışkanlı Bant Ağzı", "Kristal Şeffaflık", "Askı Deliği Seçeneği"]
   }
 ];
@@ -265,7 +265,7 @@ const HomePage = ({ navigateTo }) => (
         </Reveal>
         <Reveal delay="reveal-delay-2">
           <p className="text-xl md:text-2xl text-slate-300 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
-            İstanbul'dan dünyaya açılan kapınız. 30 yıllık tecrübe, yüksek baskı teknolojisi ve <strong className="text-white font-bold">sürdürülebilir üretim</strong> vizyonuyla markanızı en iyi şekilde temsil ediyoruz.
+            İstanbul'dan dünyaya açılan kapınız. 10 yıllık tecrübe, yüksek baskı teknolojisi ve <strong className="text-white font-bold">sürdürülebilir üretim</strong> vizyonuyla markanızı en iyi şekilde temsil ediyoruz.
           </p>
         </Reveal>
         <Reveal delay="reveal-delay-3" className="flex flex-col sm:flex-row justify-center gap-6">
@@ -444,40 +444,41 @@ const AboutPage = () => (
       <div className="grid md:grid-cols-2 gap-16 mt-20 items-center mb-32">
         <Reveal>
             <TiltCard className="rounded-[3rem] overflow-hidden relative h-[600px] shadow-2xl shadow-blue-900/20">
-                <img loading="lazy" src="https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&q=80&w=800" className="w-full h-full object-cover" alt="Ayplast Üretim Tesisi"/>
+                <img loading="lazy" src="https://github.com/FurkanMorova/ayplast-web/blob/main/src/assets/ayplast-uretim-tesisi.png?raw=true" className="w-full h-full object-cover" alt="Ayplast Üretim Tesisi"/>
                 <div className="absolute inset-0 bg-blue-900/40 mix-blend-multiply"></div>
                 <div className="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-black/80 to-transparent text-left">
-                    <h4 className="text-white font-bold text-2xl">İkitelli Entegre Tesisimiz</h4>
-                    <p className="text-slate-300 text-sm">Plastikçiler Sanayi Sitesi, İstanbul</p>
+                    <h4 className="text-white font-bold text-2xl">İkitelli Tesisimiz</h4>
+                    <p className="text-slate-300 text-sm">Güngören Sanayi Sitesi, İstanbul</p>
                 </div>
             </TiltCard>
         </Reveal>
         <div className="text-left space-y-10">
             <Reveal delay="reveal-delay-1">
                 <h3 className="text-4xl font-bold leading-tight mb-6">
-                    <span className="gradient-text">30 Yıllık Tecrübe</span> ile Geleceği Tasarlıyoruz.
+                    <span className="gradient-text">10 Yıllık Tecrübe</span> ile Geleceği Tasarlıyoruz.
                 </h3>
                 <p className="text-lg text-slate-300 leading-relaxed glass p-8 rounded-3xl border-l-4 border-blue-500">
-                    1995 yılında küçük bir atölyede başlayan serüvenimiz, bugün yapay zeka destekli üretim hatlarına sahip, <strong>5000 m²'lik entegre bir teknoloji üssüne</strong> dönüştü. AYPLAST olarak biz sadece poşet üretmiyoruz; markanızın prestijini koruyan, ürününüzü güvenle taşıyan ve doğaya saygılı <strong>ambalaj çözümleri</strong> geliştiriyoruz.
+                    Küçük bir atölyede başlayan serüvenimiz, bugün yapay zeka destekli üretim hatlarına sahip, <strong> entegre bir teknoloji üssüne</strong> dönüştü. AYPLAST olarak biz sadece poşet üretmiyoruz; markanızın prestijini koruyan, ürününüzü güvenle taşıyan ve doğaya saygılı <strong>ambalaj çözümleri</strong> geliştiriyoruz.
                 </p>
             </Reveal>
             
             <Reveal delay="reveal-delay-2">
-                <div className="grid grid-cols-3 gap-4 text-center">
-                    <div className="glass p-6 rounded-2xl hover:bg-blue-900/20 transition-colors">
-                        <h4 className="text-4xl font-black text-blue-400 mb-2">100%</h4>
-                        <p className="text-xs text-slate-400 font-bold uppercase">Müşteri Memnuyieti</p>
-                    </div>
-                    <div className="glass p-6 rounded-2xl hover:bg-purple-900/20 transition-colors">
-                        <h4 className="text-4xl font-black text-purple-400 mb-2">∞ </h4>
-                        <p className="text-xs text-slate-400 font-bold uppercase">Sayısız Proje</p>
-                    </div>
-                    <div className="glass p-6 rounded-2xl hover:bg-cyan-900/20 transition-colors">
-                        <h4 className="text-4xl font-black text-cyan-400 mb-2">35+</h4>
-                        <p className="text-xs text-slate-400 font-bold uppercase">Ülkeye İhracat</p>
-                    </div>
-                </div>
-            </Reveal>
+    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
+        <div className="glass p-6 rounded-2xl hover:bg-blue-900/20 transition-colors">
+            <h4 className="text-4xl font-black text-blue-400 mb-2">100%</h4>
+            <p className="text-xs text-slate-400 font-bold uppercase">Müşteri Memnuyieti</p>
+        </div>
+        <div className="glass p-6 rounded-2xl hover:bg-purple-900/20 transition-colors">
+            <h4 className="text-4xl font-black text-purple-400 mb-2">∞ </h4>
+            <p className="text-xs text-slate-400 font-bold uppercase">Sayısız Proje</p>
+        </div>
+        <div className="glass p-6 rounded-2xl hover:bg-cyan-900/20 transition-colors">
+            <h4 className="text-4xl font-black text-cyan-400 mb-2">10+</h4>
+            <p className="text-xs text-slate-400 font-bold uppercase">Ülkeye İhracat</p>
+        </div>
+    </div>
+</Reveal>
+
         </div>
       </div>
 
@@ -554,24 +555,48 @@ const ContactPage = () => {
         <div className="container mx-auto">
             <SectionTitle title="İletişim & Proje" subtitle="Geleceğin projesini birlikte tasarlayalım." darkBg />
             <div className="grid lg:grid-cols-2 gap-16 mt-20">
-                <TiltCard className="glass p-12 rounded-[3rem] relative overflow-hidden">
-                    <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
-                    <h3 className="text-3xl font-bold text-white mb-10">Bize Ulaşın</h3>
-                    <div className="space-y-8">
-                        <a href={`tel:${COMPANY_INFO.phone}`} className="flex items-center gap-6 group">
-                            <div className="w-16 h-16 rounded-full bg-gradient-to-tr from-blue-600 to-cyan-500 flex items-center justify-center shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform"><Phone size={28} className="text-white"/></div>
-                            <div><p className="text-xs text-blue-400 font-bold uppercase">Telefon</p><p className="text-xl text-white font-bold">{COMPANY_INFO.phone}</p></div>
-                        </a>
-                        <a href={`mailto:${COMPANY_INFO.email}`} className="flex items-center gap-6 group">
-                            <div className="w-16 h-16 rounded-full bg-gradient-to-tr from-purple-600 to-pink-500 flex items-center justify-center shadow-lg shadow-purple-500/20 group-hover:scale-110 transition-transform"><Mail size={28} className="text-white"/></div>
-                            <div><p className="text-xs text-purple-400 font-bold uppercase">E-Posta</p><p className="text-xl text-white font-bold">{COMPANY_INFO.email}</p></div>
-                        </a>
-                        <div className="flex items-center gap-6 group">
-                            <div className="w-16 h-16 rounded-full bg-gradient-to-tr from-slate-700 to-slate-600 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform"><MapPin size={28} className="text-white"/></div>
-                            <div><p className="text-xs text-slate-400 font-bold uppercase">Konum</p><p className="text-lg text-white leading-tight">{COMPANY_INFO.address}</p></div>
-                        </div>
-                    </div>
-                </TiltCard>
+                <TiltCard className="glass p-6 sm:p-12 rounded-[3rem] relative overflow-hidden">
+  {/* Arka plan dekoratif blur */}
+  <div className="absolute top-0 right-0 w-48 h-48 sm:w-64 sm:h-64 bg-blue-600/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+
+  <h3 className="text-2xl sm:text-3xl font-bold text-white mb-8 sm:mb-10 text-center sm:text-left">Bize Ulaşın</h3>
+
+  <div className="space-y-6 sm:space-y-8">
+    {/* Telefon */}
+    <a href={`tel:${COMPANY_INFO.phone}`} className="flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6 group">
+      <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-gradient-to-tr from-blue-600 to-cyan-500 flex items-center justify-center shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform">
+        <Phone size={28} className="text-white"/>
+      </div>
+      <div className="text-center sm:text-left">
+        <p className="text-xs text-blue-400 font-bold uppercase">Telefon</p>
+        <p className="text-lg sm:text-xl text-white font-bold">{COMPANY_INFO.phone}</p>
+      </div>
+    </a>
+
+    {/* E-Posta */}
+    <a href={`mailto:${COMPANY_INFO.email}`} className="flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6 group">
+      <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-gradient-to-tr from-purple-600 to-pink-500 flex items-center justify-center shadow-lg shadow-purple-500/20 group-hover:scale-110 transition-transform">
+        <Mail size={28} className="text-white"/>
+      </div>
+      <div className="text-center sm:text-left">
+        <p className="text-xs text-purple-400 font-bold uppercase">E-Posta</p>
+        <p className="text-lg sm:text-xl text-white font-bold">{COMPANY_INFO.email}</p>
+      </div>
+    </a>
+
+    {/* Konum */}
+<div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6 group">
+  <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-gradient-to-tr from-slate-700 to-slate-600 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+    <MapPin size={28} className="text-white"/>
+  </div>
+  <div className="text-center sm:text-left flex-1">
+    <p className="text-xs text-slate-400 font-bold uppercase">Konum</p>
+    <p className="text-sm sm:text-lg text-white leading-tight break-words">{COMPANY_INFO.address}</p>
+  </div>
+</div>
+  </div>
+</TiltCard>
+
 
                 <div className="bg-white rounded-[3rem] p-12 shadow-2xl relative z-10">
                     <h3 className="text-3xl font-bold text-slate-900 mb-8">Hızlı Teklif Formu</h3>
@@ -727,8 +752,7 @@ export default function App() {
         <div className={`container mx-auto px-6 rounded-full transition-all duration-500 ${scrolled ? 'glass shadow-2xl shadow-blue-900/20 p-4' : 'bg-transparent'}`}>
             <div className="flex justify-between items-center">
             <div className="font-black text-3xl tracking-tighter cursor-pointer flex items-center gap-2 text-white" onClick={() => navigateTo('home')}>
-                <img src="src/assets/logo.png" alt="" />
-
+<img   src="https://github.com/FurkanMorova/ayplast-web/blob/main/src/assets/logo.png?raw=true"   alt="Logo"   style={{ width: '80px', height: 'auto' }} />
             </div>
 
             <nav className="hidden lg:flex items-center gap-2 glass rounded-full px-2 py-2">
@@ -770,7 +794,11 @@ export default function App() {
           <div className="grid md:grid-cols-4 gap-12 mb-20">
             <div className="col-span-1 md:col-span-1 space-y-8">
               <div className="font-black text-3xl tracking-tighter flex items-center gap-2">
-                                <img src="src/assets/logo.png" alt="" />
+                                <img 
+  src="https://github.com/FurkanMorova/ayplast-web/blob/main/src/assets/logo.png?raw=true" 
+  alt="Logo" 
+  style={{ width: '100px', height: 'auto' }} 
+/>
 
               </div>
               <p className="text-slate-400 leading-relaxed">
@@ -796,8 +824,7 @@ export default function App() {
           <div className="border-t border-slate-900 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
             <p>&copy; {COMPANY_INFO.year} AYPLAST Ambalaj. Tüm Hakları Saklıdır.</p>
             <div className="flex gap-8 mt-4 md:mt-0 font-bold">
-              <span className="hover:text-blue-400 cursor-pointer transition-colors">KVKK & Gizlilik</span>
-              <span className="hover:text-blue-400 cursor-pointer transition-colors">Çerez Politikası</span>
+              
             </div>
           </div>
         </div>
